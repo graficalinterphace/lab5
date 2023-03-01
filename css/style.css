@@ -22,7 +22,7 @@ h1 {
   font-size: 48px;
 }
 .data:hover {
-  opacity: .5;
+  background-color: green;
 }
 
 body {
