@@ -1,0 +1,10 @@
+td, th {
+	border: 1px solid;
+  }
+
+body {
+  background-image: url(../images/deep_space.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
