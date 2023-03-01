@@ -1,27 +1,24 @@
-table.planets {
-  margin: auto;
+th, td {
   border-collapse: collapse;
   border: 2px double orangered;
-}
-table.planets th, table.planets td {
   text-align: center;
   font-family: "Garamond", Helvetica, Serif;
   color: whitesmoke;
 }
-table.planets th:nth-child(1) {
+th:nth-child(1) {
   border-width : 0;
 }
-table.planets th#name, table.planets th#mercury, table.planets th#venus, table.planets th#earth, table.planets th#mars {
+th#name, th#mercury, th#venus, th#earth, th#mars {
 	width: 20%;	
 }
-table.planets td:nth-child(n + 2) {
-  border: 2px solid orange;
-  font-size: 24px;
+td:nth-child(n + 2) {
+  border: 18px solid orange;
+  font-size: px;
   font-family: Sans-Serif;
 }
 .labels {
   border: 2px double orangered;
-  font-size: 28px;
+  font-size: 22px;
   font-family: Serif;
   font-weight: bold;
   color: blanchedalmond;
