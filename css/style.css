@@ -3,23 +3,25 @@ th {
   text-align: center;
   font-weight: bold;
   font-family: "Garamond", Helvetica, serif;
+  font-size: 24px;
   color: whitesmoke;
   text-shadow: 0 0 5px #000000;
-  }
+}
 td {
   border: 2px solid #123456;
   text-align: center;
   font-family: "Garamond", Helvetica, serif;
+  font-size: 18px;
   color: whitesmoke;
   text-shadow: 0 0 5px #000000;
-  }
+}
 td:nth-child(1) {
   font-weight: bold;
 }
 h1 {
   text-align: center;
-  color: gold;
   font-size: 48px;
+  color: gold;
 }
 .data:hover {
   background-color: green;
