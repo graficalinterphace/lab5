@@ -1,19 +1,20 @@
 th {
 	border: 2px solid #123456;
   text-align: center;
-  padding: 10px;
   font-weight: bold;
   font-family: "Garamond", Helvetica, serif;
+  color: whitesmoke;
+  text-shadow: 0 0 5px #000000;
   }
 td {
   border: 2px solid #123456;
   text-align: center;
-  padding: 10px;
   font-family: "Garamond", Helvetica, serif;
+  color: whitesmoke;
+  text-shadow: 0 0 5px #000000;
   }
 td:nth-child(1) {
   font-weight: bold;
-  font-family: "Garamond", Helvetica, serif;
 }
 h1 {
   text-align: center;
