@@ -12,8 +12,8 @@ th#name, th#mercury, th#venus, th#earth, th#mars {
 	width: 20%;	
 }
 td:nth-child(n + 2) {
-  border: 18px solid orange;
-  font-size: px;
+  border: 2px solid orange;
+  font-size: 18px;
   font-family: Sans-Serif;
 }
 .labels {
