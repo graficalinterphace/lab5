@@ -1,10 +1,36 @@
-td, th {
-	border: 1px solid;
+th {
+	border: 2px solid #123456;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-family: "Garamond", Helvetica, serif;
   }
+td {
+  border: 2px solid #123456;
+  text-align: center;
+  padding: 10px;
+  font-family: "Garamond", Helvetica, serif;
+  }
+td:nth-child(1) {
+  font-weight: bold;
+  font-family: "Garamond", Helvetica, serif;
+}
+h1 {
+  text-align: center;
+  color: gold;
+  font-size: 48px;
+}
+.data:hover {
+  opacity: .5;
+}
 
 body {
   background-image: url(../assets/deep_space.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: black;
+}
+img {
+  width: 288px;
+  height: 288px;
 }
