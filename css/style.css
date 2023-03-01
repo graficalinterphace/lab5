@@ -23,7 +23,7 @@ td:nth-child(n + 2) {
   font-weight: bold;
   color: blanchedalmond;
 }
-h1 {
+#title {
   text-align: center;
   font-size: 48px;
   color: gold;
