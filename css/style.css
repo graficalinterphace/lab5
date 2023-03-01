@@ -1,29 +1,28 @@
 th, td {
-  border-collapse: collapse;
-  border: 2px double orangered;
   text-align: center;
-  font-family: "Garamond", Helvetica, Serif;
-  color: whitesmoke;
+  font-family: "Garamond", Helvetica;
+  color: lavender;
 }
 th:nth-child(1) {
   border-width : 0;
-}
-th#name, th#mercury, th#venus, th#earth, th#mars {
-	width: 20%;	
 }
 td:nth-child(n + 2) {
   border: 2px solid orange;
   font-size: 18px;
   font-family: Sans-Serif;
 }
+td:nth-child(n + 2):hover {
+  background-color: greenyellow;
+  color: steelblue;
+}
 .labels {
   border: 2px double orangered;
   font-size: 22px;
   font-family: Serif;
   font-weight: bold;
-  color: blanchedalmond;
+  color: steelblue;
 }
-#title {
+caption#title {
   text-align: center;
   font-size: 48px;
   color: gold;
