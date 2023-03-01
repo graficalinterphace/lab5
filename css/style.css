@@ -2,7 +2,7 @@ th {
   border: 2px double orangered;
   text-align: center;
   font-weight: bold;
-  font-family: "Garamond", Helvetica, serif;
+  font-family: "Garamond", Helvetica, Serif;
   font-size: 28px;
   color: whitesmoke;
   text-shadow: 0 0 10px #000000;
@@ -13,13 +13,14 @@ th:nth-child(1) {
 td {
   border: 2px solid orange;
   text-align: center;
-  font-family: "Garamond", Helvetica, serif;
+  font-family: "Garamond", Helvetica;
   font-size: 24px;
   color: whitesmoke;
   text-shadow: 0 0 10px #000000;
 }
 td:nth-child(1) {
   font-weight: bold;
+  font-family: Serif;
 }
 h1 {
   text-align: center;
@@ -27,6 +28,7 @@ h1 {
   color: gold;
 }
 .data {
+  font-family: Sans-Serif;
   color: green;
 }
 .data:hover {
