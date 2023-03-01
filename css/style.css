@@ -3,18 +3,18 @@ table.planets {
   border-collapse: collapse;
   border: 2px double orangered;
 }
-th, td {
+table.planets th, table.planets td {
   text-align: center;
   font-family: "Garamond", Helvetica, Serif;
   color: whitesmoke;
 }
-th:nth-child(1) {
+table.planets th:nth-child(1) {
   border-width : 0;
 }
 table.planets th#name, table.planets th#mercury, table.planets th#venus, table.planets th#earth, table.planets th#mars {
 	width: 20%;	
 }
-td:nth-child(n + 2) {
+table.planets td:nth-child(n + 2) {
   border: 2px solid orange;
   font-size: 24px;
   font-family: Sans-Serif;
