@@ -20,6 +20,7 @@ td:nth-child(n + 2) {
   font-family: Sans-Serif;
 }
 .labels {
+  border: 2px double orangered;
   font-size: 28px;
   font-family: Serif;
   font-weight: bold;
