@@ -1,39 +1,26 @@
-th {
+th, td {
   border: 2px double orangered;
   text-align: center;
-  font-weight: bold;
   font-family: "Garamond", Helvetica, Serif;
-  font-size: 28px;
   color: whitesmoke;
-  text-shadow: 0 0 10px #000000;
 }
 th:nth-child(1) {
   border-width : 0;
 }
-td {
+td:nth-child(n + 2) {
   border: 2px solid orange;
-  text-align: center;
-  font-family: "Garamond", Helvetica;
   font-size: 24px;
-  color: whitesmoke;
-  text-shadow: 0 0 10px #000000;
-}
-td:nth-child(1) {
-  font-weight: bold;
-  font-family: Serif;
+  font-family: Sans-Serif;
 }
 h1 {
   text-align: center;
   font-size: 48px;
   color: gold;
 }
-.data {
-  font-family: Sans-Serif;
-  color: green;
-  background: rgba(255,255,255,0.5);
-}
-.data:hover {
-  background-color: green;
+.labels {
+  font-size: 28px;
+  font-family: Serif;
+  font-weight: bold;
 }
 body {
   background-image: url(../assets/deep_space.jpg);
