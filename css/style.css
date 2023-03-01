@@ -30,6 +30,7 @@ h1 {
 .data {
   font-family: Sans-Serif;
   color: green;
+  background: rgba(255,255,255,0.5);
 }
 .data:hover {
   background-color: green;
